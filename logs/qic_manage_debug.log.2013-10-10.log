@@ -1,0 +1,681 @@
+ main- INFO-[2013-10-10 14:14:46,164]-play.Logger.info(Logger.java:290)-Starting E:\iquant_ext\iquantServer
+ main- INFO-[2013-10-10 14:14:53,431]-play.Logger.info(Logger.java:290)-Module redis is available (E:\javaTools\play1\modules\redis-0.3)
+ main- INFO-[2013-10-10 14:14:53,431]-play.Logger.info(Logger.java:290)-Module guice is available (E:\javaTools\play1\modules\guice-1.2)
+ main- INFO-[2013-10-10 14:14:53,431]-play.Logger.info(Logger.java:290)-Module iquantCommon is available (E:\iquant_ext\iquantServer\..\iquantCommon)
+ main- WARN-[2013-10-10 14:14:59,088]-play.Logger.warn(Logger.java:345)-You're running Play! in DEV mode
+ main- INFO-[2013-10-10 14:15:00,198]-play.Logger.info(Logger.java:290)-Listening for HTTP on port 9100 (Waiting a first request to start) ...
+play-thread-1- INFO-[2013-10-10 14:15:34,313]-play.Logger.info(Logger.java:290)-Connecting to redis with redis://localhost:6379
+play-thread-1- INFO-[2013-10-10 14:15:34,531]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+play-thread-1- INFO-[2013-10-10 14:15:34,578]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+play-thread-1- INFO-[2013-10-10 14:15:34,578]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+play-thread-1- INFO-[2013-10-10 14:15:34,594]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+play-thread-1- INFO-[2013-10-10 14:15:34,594]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+play-thread-1- INFO-[2013-10-10 14:15:34,594]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+play-thread-1- INFO-[2013-10-10 14:15:34,594]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:15:34,594]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,891]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,906]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,922]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+play-thread-1- INFO-[2013-10-10 14:15:34,938]-play.Logger.info(Logger.java:290)-Connected to jdbc:mysql://192.168.103.108/qic_db?useUnicode=yes&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&connectionCollation=utf8_general_ci&statementInterceptors=com.tom.mysql.ShowSqlStatementInterceptor
+play-thread-1- INFO-[2013-10-10 14:15:34,953]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+play-thread-1- INFO-[2013-10-10 14:15:34,953]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+play-thread-1- INFO-[2013-10-10 14:15:34,953]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+play-thread-1- INFO-[2013-10-10 14:15:34,969]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+play-thread-1- INFO-[2013-10-10 14:15:34,969]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+play-thread-1- INFO-[2013-10-10 14:15:34,969]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+play-thread-1- INFO-[2013-10-10 14:15:34,969]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:15:34,969]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,000]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:34,985]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,000]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,000]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,000]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+play-thread-1- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-Connected to jdbc:mysql://192.168.103.108/qicore?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci&zeroDateTimeBehavior=convertToNull&statementInterceptors=com.tom.mysql.ShowSqlStatementInterceptor
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,016]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+play-thread-1- INFO-[2013-10-10 14:15:35,031]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+play-thread-1- INFO-[2013-10-10 14:15:35,031]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+play-thread-1- INFO-[2013-10-10 14:15:35,031]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+play-thread-1- INFO-[2013-10-10 14:15:35,031]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+play-thread-1- INFO-[2013-10-10 14:15:35,047]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+play-thread-1- INFO-[2013-10-10 14:15:35,047]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+play-thread-1- INFO-[2013-10-10 14:15:35,047]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:15:35,047]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,063]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+play-thread-1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-Connected to jdbc:mysql://192.168.103.108/gta_data?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci&zeroDateTimeBehavior=convertToNull&statementInterceptors=com.tom.mysql.ShowSqlStatementInterceptor
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+play-thread-1- INFO-[2013-10-10 14:15:35,078]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:15:35,094]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,110]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,110]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,110]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SHOW VARIABLES WHERE Variable_name ='language' OR Variable_name = 'net_write_timeout' OR Variable_name = 'interactive_timeout' OR Variable_name = 'wait_timeout' OR Variable_name = 'character_set_client' OR Variable_name = 'character_set_connection' OR Variable_name = 'character_set' OR Variable_name = 'character_set_server' OR Variable_name = 'tx_isolation' OR Variable_name = 'transaction_isolation' OR Variable_name = 'character_set_results' OR Variable_name = 'timezone' OR Variable_name = 'time_zone' OR Variable_name = 'system_time_zone' OR Variable_name = 'lower_case_table_names' OR Variable_name = 'max_allowed_packet' OR Variable_name = 'net_buffer_length' OR Variable_name = 'sql_mode' OR Variable_name = 'query_cache_type' OR Variable_name = 'query_cache_size' OR Variable_name = 'init_connect'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==/* mysql-connector-java-5.1.20 ( Revision: tonci.grgin@oracle.com-20111003110438-qfydx066wsbydkbw ) */SELECT @@session.auto_increment_increment
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SHOW COLLATION
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,125]-play.Logger.info(Logger.java:290)-sql==SET NAMES utf8
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET character_set_results = NULL
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET collation_connection = utf8_general_ci
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SET sql_mode='STRICT_TRANS_TABLES'
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-sql==SELECT @@session.tx_isolation
+play-thread-1- INFO-[2013-10-10 14:15:35,141]-play.Logger.info(Logger.java:290)-Connected to jdbc:mysql://192.168.103.108/qsm?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci&zeroDateTimeBehavior=convertToNull&statementInterceptors=com.tom.mysql.ShowSqlStatementInterceptor
+play-thread-1- INFO-[2013-10-10 14:15:35,360]-org.hibernate.annotations.common.Version.<clinit>(Version.java:37)-HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+play-thread-1- INFO-[2013-10-10 14:15:35,360]-org.hibernate.Version.logVersion(Version.java:41)-HHH000412: Hibernate Core {4.1.3.Final}
+play-thread-1- INFO-[2013-10-10 14:15:35,375]-org.hibernate.cfg.Environment.<clinit>(Environment.java:239)-HHH000206: hibernate.properties not found
+play-thread-1- INFO-[2013-10-10 14:15:35,375]-org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:342)-HHH000021: Bytecode provider name : javassist
+play-thread-1- INFO-[2013-10-10 14:15:35,766]-org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator.instantiateExplicitConnectionProvider(ConnectionProviderInitiator.java:188)-HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.DatasourceConnectionProviderImpl
+play-thread-1- INFO-[2013-10-10 14:15:35,813]-org.hibernate.dialect.Dialect.<init>(Dialect.java:122)-HHH000400: Using dialect: play.db.jpa.MySQLDialect
+play-thread-1- INFO-[2013-10-10 14:15:35,828]-org.hibernate.engine.jdbc.internal.LobCreatorBuilder.useContextualLobCreation(LobCreatorBuilder.java:120)-HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+play-thread-1- INFO-[2013-10-10 14:15:35,844]-org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(TransactionFactoryInitiator.java:68)-HHH000399: Using default transaction strategy (direct JDBC transactions)
+play-thread-1- INFO-[2013-10-10 14:15:35,844]-org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:48)-HHH000397: Using ASTQueryTranslatorFactory
+play-thread-1-DEBUG-[2013-10-10 14:15:36,219]-play.Logger.debug(Logger.java:233)-Starting Guice modules scanning
+play-thread-1-DEBUG-[2013-10-10 14:15:36,219]-play.Logger.debug(Logger.java:233)-Guice modules cleared
+play-thread-1- INFO-[2013-10-10 14:15:36,704]-play.Logger.info(Logger.java:290)-Guice injector created with modules: 
+class binding.CommonBindModule
+class binding.LicencesBindModule
+class binding.ProductBindModule
+class binding.StockBindModule
+class binding.StrategyBindModule
+class binding.TradeAccountBindModule
+class binding.UserBindModule
+
+play-thread-1- INFO-[2013-10-10 14:15:36,813]-play.Logger.info(Logger.java:290)-Application 'iquantServer' is now started !
+play-thread-1- INFO-[2013-10-10 14:15:36,860]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql]
+play-thread-1- INFO-[2013-10-10 14:15:36,875]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql\common]
+play-thread-1- INFO-[2013-10-10 14:15:37,016]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql\product]
+play-thread-1- INFO-[2013-10-10 14:15:37,047]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql\stock]
+play-thread-1- INFO-[2013-10-10 14:15:37,079]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql\strategy]
+play-thread-1- INFO-[2013-10-10 14:15:37,157]-play.Logger.info(Logger.java:290)-loading sql from [E:\iquant_ext\iquantServer\conf\sql\user]
+play-thread-1- INFO-[2013-10-10 14:15:37,329]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:15:37,391]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        key_name 'key',
+        key_value value                     
+    FROM
+        config_manage
+play-thread-1- INFO-[2013-10-10 14:15:37,438]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:15:37,438]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+jobs-thread-5- INFO-[2013-10-10 14:15:37,563]-play.Logger.info(Logger.java:290)-启动zmq...
+jobs-thread-5- INFO-[2013-10-10 14:15:37,672]-play.Logger.info(Logger.java:290)-zmp已启动, 在端口55555上侦听
+play-thread-1- INFO-[2013-10-10 14:15:50,174]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:15:50,174]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        user_uuid as uuid,
+        check_sum as checkSum,
+        id,
+        `name`,
+        account,
+        pwd,
+        phone,
+        email,
+        idcard,
+        capital_account AS capitalAccount,
+        address,
+        post,
+        sdate,
+        edate,
+        apply_date AS applyDate,
+        `status`,
+        utype,
+        utime,
+        max_login as maxLogin     
+    FROM
+        user_info     
+    WHERE
+        account = 'admin'     limit 1
+play-thread-1- INFO-[2013-10-10 14:15:50,299]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:15:50,299]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:14,350]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:14,350]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        user_uuid as uuid,
+        check_sum as checkSum,
+        id,
+        `name`,
+        account,
+        pwd,
+        phone,
+        email,
+        idcard,
+        capital_account AS capitalAccount,
+        address,
+        post,
+        sdate,
+        edate,
+        apply_date AS applyDate,
+        `status`,
+        utype,
+        utime,
+        max_login as maxLogin     
+    FROM
+        user_info     
+    WHERE
+        account = 'admin'     limit 1
+play-thread-1- INFO-[2013-10-10 14:16:14,366]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:14,366]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1-DEBUG-[2013-10-10 14:16:17,148]-play.Logger.debug(Logger.java:233)-收到请求数据:
+{"saleId":0,"orderFlag":0,"status":0,"flag":1}
+play-thread-1- INFO-[2013-10-10 14:16:17,163]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:17,163]-play.Logger.info(Logger.java:290)-sql==
+    select
+        count(*) 
+    from
+        ( SELECT
+            ui.`id` AS id,
+            ui.`account` AS account,
+            ui.`name` AS NAME,
+            ui.`idcard` AS idCard,
+            ui.`phone` AS phone,
+            sd.`name` AS saleName,
+            ui.`capital_account` AS capitalAccount,
+            ui.`apply_date` AS applyDate,
+            ui.`status` AS STATUS 
+        FROM
+            user_info ui   
+        LEFT JOIN
+            sale_department sd     
+                ON ui.`sale_dep` = sd.`id`  
+        WHERE
+            ui.`status`=2 ) distTable
+play-thread-1- INFO-[2013-10-10 14:16:17,179]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        ui.`id` AS id,
+        ui.`account` AS account,
+        ui.`name` AS NAME,
+        ui.`idcard` AS idCard,
+        ui.`phone` AS phone,
+        sd.`name` AS saleName,
+        ui.`capital_account` AS capitalAccount,
+        ui.`apply_date` AS applyDate,
+        ui.`status` AS STATUS 
+    FROM
+        user_info ui   
+    LEFT JOIN
+        sale_department sd     
+            ON ui.`sale_dep` = sd.`id`  
+    WHERE
+        ui.`status`=2 
+    ORDER BY
+        applyDate desc  limit 0,
+        20
+play-thread-1- INFO-[2013-10-10 14:16:17,179]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:17,179]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:17,273]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:17,273]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name              
+    FROM
+        sale_department
+play-thread-1- INFO-[2013-10-10 14:16:17,273]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:17,273]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:17,319]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:17,319]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name                 
+    FROM
+        role_info
+play-thread-1- INFO-[2013-10-10 14:16:17,335]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:17,335]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1-DEBUG-[2013-10-10 14:16:20,054]-play.Logger.debug(Logger.java:233)-收到请求数据:
+{"saleId":0,"orderFlag":0,"status":0,"roleId":0,"flag":2}
+play-thread-1- INFO-[2013-10-10 14:16:20,054]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:20,054]-play.Logger.info(Logger.java:290)-sql==
+    select
+        count(*) 
+    from
+        ( SELECT
+            ui.`id` AS id,
+            ui.`account` AS account,
+            ui.`name` AS NAME,
+            ui.`idcard` AS idCard,
+            ui.`phone` AS phone,
+            sd.`name` AS saleName,
+            ui.`capital_account` AS capitalAccount,
+            ui.`apply_date` AS applyDate,
+            ui.`status` AS STATUS,
+            GROUP_CONCAT(ri.`name`) AS roleName,
+            ui.`sdate` AS startDate,
+            ui.`edate` AS endDate 
+        FROM
+            user_info ui   
+        LEFT JOIN
+            sale_department sd     
+                ON ui.`sale_dep` = sd.`id`      
+        left JOIN
+            user_role ur 
+                ON ur.`uid`=ui.`id`     
+        left JOIN
+            role_info ri 
+                ON ri.`id` = ur.`rid`     
+        where
+            ui.`status` NOT IN(
+                -100,2
+            )  
+            AND ui.`edate`>NOW()  
+        GROUP BY
+            id  ) distTable
+play-thread-1- INFO-[2013-10-10 14:16:20,070]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        ui.`id` AS id,
+        ui.`account` AS account,
+        ui.`name` AS NAME,
+        ui.`idcard` AS idCard,
+        ui.`phone` AS phone,
+        sd.`name` AS saleName,
+        ui.`capital_account` AS capitalAccount,
+        ui.`apply_date` AS applyDate,
+        ui.`status` AS STATUS,
+        GROUP_CONCAT(ri.`name`) AS roleName,
+        ui.`sdate` AS startDate,
+        ui.`edate` AS endDate 
+    FROM
+        user_info ui   
+    LEFT JOIN
+        sale_department sd     
+            ON ui.`sale_dep` = sd.`id`      
+    left JOIN
+        user_role ur 
+            ON ur.`uid`=ui.`id`     
+    left JOIN
+        role_info ri 
+            ON ri.`id` = ur.`rid`     
+    where
+        ui.`status` NOT IN(
+            -100,2
+        )  
+        AND ui.`edate`>NOW()  
+    GROUP BY
+        id  limit 0,
+        20
+play-thread-1- INFO-[2013-10-10 14:16:20,085]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:20,085]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:20,117]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:20,132]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name              
+    FROM
+        sale_department
+play-thread-1- INFO-[2013-10-10 14:16:20,132]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:20,132]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:20,179]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:20,179]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name                 
+    FROM
+        role_info
+play-thread-1- INFO-[2013-10-10 14:16:20,179]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:20,195]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1-DEBUG-[2013-10-10 14:16:22,445]-play.Logger.debug(Logger.java:233)-收到请求数据:
+{"saleId":0,"orderFlag":0,"status":0,"flag":1}
+play-thread-1- INFO-[2013-10-10 14:16:22,461]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:22,461]-play.Logger.info(Logger.java:290)-sql==
+    select
+        count(*) 
+    from
+        ( SELECT
+            ui.`id` AS id,
+            ui.`account` AS account,
+            ui.`name` AS NAME,
+            ui.`idcard` AS idCard,
+            ui.`phone` AS phone,
+            sd.`name` AS saleName,
+            ui.`capital_account` AS capitalAccount,
+            ui.`apply_date` AS applyDate,
+            ui.`status` AS STATUS 
+        FROM
+            user_info ui   
+        LEFT JOIN
+            sale_department sd     
+                ON ui.`sale_dep` = sd.`id`  
+        WHERE
+            ui.`status`=2 ) distTable
+play-thread-1- INFO-[2013-10-10 14:16:22,476]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        ui.`id` AS id,
+        ui.`account` AS account,
+        ui.`name` AS NAME,
+        ui.`idcard` AS idCard,
+        ui.`phone` AS phone,
+        sd.`name` AS saleName,
+        ui.`capital_account` AS capitalAccount,
+        ui.`apply_date` AS applyDate,
+        ui.`status` AS STATUS 
+    FROM
+        user_info ui   
+    LEFT JOIN
+        sale_department sd     
+            ON ui.`sale_dep` = sd.`id`  
+    WHERE
+        ui.`status`=2 
+    ORDER BY
+        applyDate desc  limit 0,
+        20
+play-thread-1- INFO-[2013-10-10 14:16:22,476]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:22,476]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:22,523]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:22,523]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name              
+    FROM
+        sale_department
+play-thread-1- INFO-[2013-10-10 14:16:22,523]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:22,523]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:22,555]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:22,570]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name                 
+    FROM
+        role_info
+play-thread-1- INFO-[2013-10-10 14:16:22,570]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:22,570]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1-DEBUG-[2013-10-10 14:16:24,789]-play.Logger.debug(Logger.java:233)-收到请求数据:
+{"saleId":0,"orderFlag":0,"status":0,"roleId":0,"flag":2}
+play-thread-1- INFO-[2013-10-10 14:16:24,789]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:24,789]-play.Logger.info(Logger.java:290)-sql==
+    select
+        count(*) 
+    from
+        ( SELECT
+            ui.`id` AS id,
+            ui.`account` AS account,
+            ui.`name` AS NAME,
+            ui.`idcard` AS idCard,
+            ui.`phone` AS phone,
+            sd.`name` AS saleName,
+            ui.`capital_account` AS capitalAccount,
+            ui.`apply_date` AS applyDate,
+            ui.`status` AS STATUS,
+            GROUP_CONCAT(ri.`name`) AS roleName,
+            ui.`sdate` AS startDate,
+            ui.`edate` AS endDate 
+        FROM
+            user_info ui   
+        LEFT JOIN
+            sale_department sd     
+                ON ui.`sale_dep` = sd.`id`      
+        left JOIN
+            user_role ur 
+                ON ur.`uid`=ui.`id`     
+        left JOIN
+            role_info ri 
+                ON ri.`id` = ur.`rid`     
+        where
+            ui.`status` NOT IN(
+                -100,2
+            )  
+            AND ui.`edate`>NOW()  
+        GROUP BY
+            id  ) distTable
+play-thread-1- INFO-[2013-10-10 14:16:24,805]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        ui.`id` AS id,
+        ui.`account` AS account,
+        ui.`name` AS NAME,
+        ui.`idcard` AS idCard,
+        ui.`phone` AS phone,
+        sd.`name` AS saleName,
+        ui.`capital_account` AS capitalAccount,
+        ui.`apply_date` AS applyDate,
+        ui.`status` AS STATUS,
+        GROUP_CONCAT(ri.`name`) AS roleName,
+        ui.`sdate` AS startDate,
+        ui.`edate` AS endDate 
+    FROM
+        user_info ui   
+    LEFT JOIN
+        sale_department sd     
+            ON ui.`sale_dep` = sd.`id`      
+    left JOIN
+        user_role ur 
+            ON ur.`uid`=ui.`id`     
+    left JOIN
+        role_info ri 
+            ON ri.`id` = ur.`rid`     
+    where
+        ui.`status` NOT IN(
+            -100,2
+        )  
+        AND ui.`edate`>NOW()  
+    GROUP BY
+        id  limit 0,
+        20
+play-thread-1- INFO-[2013-10-10 14:16:24,821]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:24,821]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:24,852]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:24,852]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name              
+    FROM
+        sale_department
+play-thread-1- INFO-[2013-10-10 14:16:24,867]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:24,867]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:24,899]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:24,899]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        id,
+        name                 
+    FROM
+        role_info
+play-thread-1- INFO-[2013-10-10 14:16:24,899]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:24,899]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:28,321]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[885], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:16:28,321]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:28,321]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        distinct                 a.id AS id,
+        a.`name` AS 'name',
+        a.password AS password,
+        a.client_id  AS clientId,
+        a.target_comp_id AS targetCompId,
+        a.hedge_type AS hedgeType,
+        a.`type`,
+        a.account,
+        a.used             
+    FROM
+        trade_account a             
+    WHERE
+        a.create_uid = 885                 
+        AND a.status = 1                 
+    order by
+        a.used  desc
+play-thread-1- INFO-[2013-10-10 14:16:28,337]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:28,337]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:35,822]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[885], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:16:35,822]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:35,822]-play.Logger.info(Logger.java:290)-sql==
+    select
+        count(*)             
+    from
+        trade_account             
+    where
+        create_uid = 885             
+        and                 name = 'gta00'             
+        and                 STATUS > 0
+play-thread-1- INFO-[2013-10-10 14:16:35,822]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:35,822]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:16:56,216]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[885], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:16:56,216]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:16:56,216]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        distinct                 a.id AS id,
+        a.`name` AS 'name',
+        a.password AS password,
+        a.client_id  AS clientId,
+        a.target_comp_id AS targetCompId,
+        a.hedge_type AS hedgeType,
+        a.`type`,
+        a.account,
+        a.used             
+    FROM
+        trade_account a             
+    WHERE
+        a.create_uid = 885                 
+        AND a.status = 1                 
+    order by
+        a.used  desc
+play-thread-1- INFO-[2013-10-10 14:16:56,216]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:16:56,216]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:17:44,333]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[886], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:17:44,333]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:17:44,349]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        distinct                 a.id AS id,
+        a.`name` AS 'name',
+        a.password AS password,
+        a.client_id  AS clientId,
+        a.target_comp_id AS targetCompId,
+        a.hedge_type AS hedgeType,
+        a.`type`,
+        a.account,
+        a.used             
+    FROM
+        trade_account a             
+    WHERE
+        a.create_uid = 886                 
+        AND a.status = 1                 
+    order by
+        a.used  desc
+play-thread-1- INFO-[2013-10-10 14:17:44,349]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:17:44,349]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:17:49,803]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[894], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:17:49,803]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:17:49,819]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        distinct                 a.id AS id,
+        a.`name` AS 'name',
+        a.password AS password,
+        a.client_id  AS clientId,
+        a.target_comp_id AS targetCompId,
+        a.hedge_type AS hedgeType,
+        a.`type`,
+        a.account,
+        a.used             
+    FROM
+        trade_account a             
+    WHERE
+        a.create_uid = 894                 
+        AND a.status = 1                 
+    order by
+        a.used  desc
+play-thread-1- INFO-[2013-10-10 14:17:49,819]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:17:49,819]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1
+play-thread-1- INFO-[2013-10-10 14:17:53,397]-play.Logger.info(Logger.java:290)-在http的queryString里包含要覆盖token里的uid参数[__opUid],且值为[901], 现在进行覆盖, 原始uid值为[1]
+play-thread-1- INFO-[2013-10-10 14:17:53,397]-play.Logger.info(Logger.java:290)-sql==SET autocommit=0
+play-thread-1- INFO-[2013-10-10 14:17:53,397]-play.Logger.info(Logger.java:290)-sql==
+    SELECT
+        distinct                 a.id AS id,
+        a.`name` AS 'name',
+        a.password AS password,
+        a.client_id  AS clientId,
+        a.target_comp_id AS targetCompId,
+        a.hedge_type AS hedgeType,
+        a.`type`,
+        a.account,
+        a.used             
+    FROM
+        trade_account a             
+    WHERE
+        a.create_uid = 901                 
+        AND a.status = 1                 
+    order by
+        a.used  desc
+play-thread-1- INFO-[2013-10-10 14:17:53,413]-play.Logger.info(Logger.java:290)-sql==commit
+play-thread-1- INFO-[2013-10-10 14:17:53,413]-play.Logger.info(Logger.java:290)-sql==SET autocommit=1

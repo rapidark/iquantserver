@@ -1,0 +1,93 @@
+play-thread-1-ERROR-[2013-09-24 09:46:30,226]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@1059d1]
+play-thread-1-ERROR-[2013-09-24 09:46:35,648]-play.Logger.error(Logger.java:400)-程序异常:Try to read stUuid on null object models.iquantCommon.StrategyBaseinfo (bussiness.strategy.impl.StrategyService.getAuthorizeRecord, line 186)
+play-thread-1-ERROR-[2013-09-24 09:46:35,977]-play.Logger.error(Logger.java:400)-程序异常:Try to read stUuid on null object models.iquantCommon.StrategyBaseinfo (bussiness.strategy.impl.StrategyService.getExecutionRecord, line 161)
+play-thread-1-ERROR-[2013-09-24 09:46:40,571]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@1a4b871]
+play-thread-1-ERROR-[2013-09-24 09:58:43,118]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@405d52]
+play-thread-1-ERROR-[2013-09-24 10:46:45,116]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fl09gaje
+Internal Server Error (500) for request GET /strategyCt/fetchStrategyBaseInfo?stid=15
+
+Compilation error (In /app/bussiness/strategy/impl/StrategyService.java around line 46)
+The file /app/bussiness/strategy/impl/StrategyService.java could not be compiled. Error raised is : The return type is incompatible with IStrategyService.findStrategyById(long)
+
+play.exceptions.CompilationException: The return type is incompatible with IStrategyService.findStrategyById(long)
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:676)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:520)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:282)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:281)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:322)
+	at play.Play.detectChanges(Play.java:632)
+	at play.Invoker$Invocation.init(Invoker.java:197)
+	at Invocation.HTTP Request(Play!)
+play-thread-1-ERROR-[2013-09-24 10:56:44,641]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@86df58]
+play-thread-1-ERROR-[2013-09-24 10:56:51,752]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@1033c5f]
+play-thread-1-ERROR-[2013-09-24 11:02:18,996]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@165a5fa]
+play-thread-1-ERROR-[2013-09-24 11:07:35,082]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@1def881]
+play-thread-1-ERROR-[2013-09-24 11:10:12,359]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@cd6d94]
+play-thread-1-ERROR-[2013-09-24 11:12:40,431]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@17c1cf0]
+play-thread-1-ERROR-[2013-09-24 11:13:10,389]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@66ee93]
+play-thread-1-ERROR-[2013-09-24 11:41:36,309]-play.Logger.error(Logger.java:400)-程序异常:2013-09-24
+play-thread-1-ERROR-[2013-09-24 11:42:02,251]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@80d5f3]
+play-thread-1-ERROR-[2013-09-24 11:42:04,017]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@171ba15]
+play-thread-1-ERROR-[2013-09-24 13:12:52,974]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 2 Query: findUserStrategyCommentList Parameters: [15, 1]
+play-thread-1-ERROR-[2013-09-24 13:19:44,639]-play.Logger.error(Logger.java:400)-程序异常:Wrong number of parameters: expected 0, was given 1 Query: findUserStrategyCommentList Parameters: [models.iquantCommon.UserStrategyDiscuss@1129e3b]
+play-thread-1-ERROR-[2013-09-24 13:27:13,013]-play.Logger.error(Logger.java:400)-程序异常:2013-09-24
+play-thread-1-ERROR-[2013-09-24 13:32:36,194]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+            uid,
+            stid,
+            dis_time,
+            content,
+' at line 2
+play-thread-1-ERROR-[2013-09-24 13:32:36,210]-play.Logger.error(Logger.java:400)-程序异常:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+            uid,
+            stid,
+            dis_time,
+            content,
+' at line 2
+play-thread-1-ERROR-[2013-09-24 13:36:15,060]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-15' for key 'i_usdiscuss_uid_stid'
+play-thread-1-ERROR-[2013-09-24 13:36:15,060]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-15' for key 'i_usdiscuss_uid_stid'
+play-thread-1-ERROR-[2013-09-24 13:44:43,695]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-15' for key 'i_usdiscuss_uid_stid'
+play-thread-1-ERROR-[2013-09-24 13:44:43,710]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-15' for key 'i_usdiscuss_uid_stid'
+play-thread-1-ERROR-[2013-09-24 14:33:24,340]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fl5c49oa
+strategyDetailCt.orderStrategy action not found
+
+Action not found
+Action strategyDetailCt.orderStrategy could not be found. Error raised is Controller controllers.strategyDetailCt not found
+
+play.exceptions.ActionNotFoundException: Action strategyDetailCt.orderStrategy not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.strategyDetailCt not found
+	... 3 more
+play-thread-1-ERROR-[2013-09-24 14:50:51,758]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fl5c49ob
+strategyDetailCt.orderStrategy action not found
+
+Action not found
+Action strategyDetailCt.orderStrategy could not be found. Error raised is Controller controllers.strategyDetailCt not found
+
+play.exceptions.ActionNotFoundException: Action strategyDetailCt.orderStrategy not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:599)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: Controller controllers.strategyDetailCt not found
+	... 3 more
+play-thread-1-ERROR-[2013-09-24 15:02:18,685]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-44' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 15:02:18,701]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-44' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 15:59:51,879]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-44' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 15:59:51,895]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-44' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:02:12,372]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:02:12,372]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:03:41,247]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:03:41,262]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:06:04,412]-org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(SqlExceptionHelper.java:144)-Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 16:06:04,428]-play.Logger.error(Logger.java:400)-程序异常:Duplicate entry '1-15' for key 'i_usorder_uid_stid'
+play-thread-1-ERROR-[2013-09-24 17:52:06,418]-play.Logger.error(Logger.java:400)-程序异常:null
+play-thread-1-ERROR-[2013-09-24 17:53:59,750]-play.Logger.error(Logger.java:400)-程序异常:null
+play-thread-1-ERROR-[2013-09-24 17:54:09,798]-play.Logger.error(Logger.java:400)-程序异常:null

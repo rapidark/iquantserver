@@ -1,0 +1,56 @@
+play-thread-1-ERROR-[2013-10-09 15:59:07,927]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fpc14e4p
+productCt.verifyTradeAccountisExist action not found
+
+Action not found
+Action productCt.verifyTradeAccountisExist could not be found. Error raised is No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+
+play.exceptions.ActionNotFoundException: Action productCt.verifyTradeAccountisExist not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:610)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+	... 3 more
+play-thread-1-ERROR-[2013-10-09 16:01:13,074]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fpc14e50
+productCt.verifyTradeAccountisExist action not found
+
+Action not found
+Action productCt.verifyTradeAccountisExist could not be found. Error raised is No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+
+play.exceptions.ActionNotFoundException: Action productCt.verifyTradeAccountisExist not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:610)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+	... 3 more
+play-thread-1-ERROR-[2013-10-09 16:01:48,315]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fpc14e51
+productCt.verifyTradeAccountisExist action not found
+
+Action not found
+Action productCt.verifyTradeAccountisExist could not be found. Error raised is No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+
+play.exceptions.ActionNotFoundException: Action productCt.verifyTradeAccountisExist not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:610)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+	... 3 more
+play-thread-1-ERROR-[2013-10-09 16:02:29,994]-play.Logger.niceThrowable(Logger.java:571)-
+
+@6fpc14e52
+productCt.verifyTradeAccountisExist action not found
+
+Action not found
+Action productCt.verifyTradeAccountisExist could not be found. Error raised is No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+
+play.exceptions.ActionNotFoundException: Action productCt.verifyTradeAccountisExist not found
+	at play.mvc.ActionInvoker.getActionMethod(ActionInvoker.java:610)
+	at play.mvc.ActionInvoker.resolve(ActionInvoker.java:85)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.Exception: No method public static void verifyTradeAccountisExist() was found in class controllers.productCt
+	... 3 more
